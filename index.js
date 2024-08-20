@@ -60,7 +60,6 @@ const displayEntries=()=>{
     const row=`<tr>${name} ${email} ${password} ${dob} ${accept}</tr>`;
     return row;
     }).join("\n");
-
     const table=`<table border="2">
     <tr>
     <th>Name</th>
