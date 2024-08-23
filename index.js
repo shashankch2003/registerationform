@@ -1,6 +1,7 @@
 const dob1 = document.getElementById("dob");
 dob1.addEventListener("change", () => validateDob(dob1));
 function validateDob(dob1){
+    
 let Date2=dob1.value.split("-");
 let year=Date2[0];
 let month=Date2[1];
