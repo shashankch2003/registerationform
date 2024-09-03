@@ -44,6 +44,7 @@ const retriveEntries=()=>{
     }
     else{
         entries=[];
+        
     }
     return entries;
 }
