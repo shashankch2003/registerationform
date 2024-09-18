@@ -49,7 +49,6 @@ const retriveEntries=()=>{
     return entries;
 }
 let userEntries=retriveEntries();
-
 const displayEntries=()=>{
     let entries=retriveEntries();
     const tableEntries=entries.map((entry)=>{
