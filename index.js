@@ -72,6 +72,7 @@ const displayEntries=()=>{
     let details=document.getElementById("entries");
     details.innerHTML=table;
 }
+
 const saveUserForm=(event)=>{
      event.preventDefault();
      const name=document.getElementById("name").value;
